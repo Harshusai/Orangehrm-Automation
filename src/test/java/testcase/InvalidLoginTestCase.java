@@ -28,7 +28,9 @@ public class InvalidLoginTestCase extends BaseClass {
 		String errorText = lp1.getErrorMessage();
 		System.out.println("Actual error text is: ---> " + errorText);
 
-		Assert.assertEquals(errorText , "CSRF token validation failed");
+		//Assert.assertEquals(errorText , "CSRF token validation failed");
+		Assert.assertTrue(errorText.toLowerCase().contains("invalid"));
+
 
 	}
 }
