@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="LoginSuite">
-  <test thread-count="5" name="LoginTest">
+<suite name="OrangeHRM Suite" thread-count="5">
+  <test name="OrangeHRM test">
     <classes>
       <class name="testcase.LoginTestCase"/>
+      <class name="testcase.InvalidLoginTestCase"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

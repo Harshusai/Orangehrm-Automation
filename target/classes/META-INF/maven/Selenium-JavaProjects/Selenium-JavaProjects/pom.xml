@@ -19,5 +19,10 @@
             <version>7.10.2</version>
             <scope>test</scope>
         </dependency>
-      </dependencies>
+        <dependency>
+        	<groupId>FrameWorks</groupId>
+        	<artifactId>FrameWorks</artifactId>
+        	<version>0.0.1-SNAPSHOT</version>
+        </dependency>
+   </dependencies>
 </project>
